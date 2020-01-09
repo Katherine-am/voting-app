@@ -13,7 +13,7 @@ class Button extends React.Component {
     }
     
     handleClick = () => {
-        alert(this.props.alert);
+        alert("You voted for " + this.props.alert);
     } 
 }
 
